@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import moment from 'moment';
+import moment from 'momentjs';
 import { useEffect, useState } from 'react';
 
 export default function ReadAllRows({ table, title }) {

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useRouter } from 'next/router';
-import moment from 'moment';
+import moment from 'momentjs';
 
 export default function SearchAcrossProjects({ title }) {
   const { register, handleSubmit, reset } = useForm();

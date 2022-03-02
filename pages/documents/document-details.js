@@ -1,4 +1,4 @@
-import moment from 'moment';
+import moment from 'momentjs';
 import { useState } from 'react';
 import Image from 'next/image';
 import { useForm } from 'react-hook-form';

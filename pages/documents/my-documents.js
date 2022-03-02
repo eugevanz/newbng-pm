@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import moment from 'moment';
+import moment from 'momentjs';
 import { useContext, useEffect, useState } from 'react';
 import AuthContext from '../../context/auth-context';
 
